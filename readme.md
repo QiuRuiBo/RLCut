@@ -14,7 +14,7 @@ For example:
 ./main RLcut pagerank "/home/local_graph/livejournal" "network/amazon"  8 0.4 100 48 output/test 0.01 train/test 1 8 15
 ```
 
-if you want to use the dynamic partitioning, please use "void RLcut_dynamic()" function in "lib.cpp" file and modify "void initialEdge()" to load subgraph.
+If you want to use the dynamic partitioning, please use "void RLcut_dynamic()" function in "lib.cpp" file and modify "void initialEdge()" to load subgraph.
 
 
 
